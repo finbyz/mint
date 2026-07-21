@@ -2,7 +2,6 @@ import frappe
 from frappe import _
 import json
 import datetime
-from erpnext.accounts.doctype.bank_reconciliation_tool.bank_reconciliation_tool import create_payment_entry_bts, create_journal_entry_bts
 from erpnext.accounts.party import get_party_account
 from erpnext import get_default_cost_center
 
